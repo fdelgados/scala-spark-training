@@ -1,0 +1,36 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: sbt role
+  company: BlackRock
+  license:
+    - MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      version:
+        - jessie
+    - name: Alpine
+      version:
+        - all
+  galaxy_tags:
+    - scala
+    - java
+    - sbt
+
+dependencies:
+  - src: bash
+    version: v1.1.1
+  - src: unarchive-deps
+    version: v1.0.9
+  - src: java-oracle-jdk
+    version: v2.0.6

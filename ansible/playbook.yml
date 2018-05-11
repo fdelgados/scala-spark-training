@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  roles:
+    - alpine-glibc-shim
+    - bash
+    - unarchive-deps
+    - java-oracle
+    - java-oracle-jre
+    - java-oracle-jdk
+    - scala
+    - spark
