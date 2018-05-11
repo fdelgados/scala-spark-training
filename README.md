@@ -6,8 +6,7 @@ An Ansible installation. Run:
 
 `brew install ansible`
 
-
-## Installation
+## Installation
 
 Rename the vagrant.yml.dist file to vagrant.yml, edit it and run:
 
