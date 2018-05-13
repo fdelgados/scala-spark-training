@@ -1,3 +1,7 @@
 .vagrant
-.vagrant.yml
 .DS_Store
+bin/
+project/
+target/
+build/
+/vagrant.yml
